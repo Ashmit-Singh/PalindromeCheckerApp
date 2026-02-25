@@ -1,7 +1,7 @@
 /**
  * ==================================================
  *
- * MAIN CLASS - UseCase4PalindromeCheckerApp
+ * MAIN CLASS - UC04_CharArrayTwoPointer
  *
  * ==================================================
  *
@@ -25,7 +25,7 @@
  * @version 4.0
  *          ==================================================
  */
-public class UseCase4PalindromeCheckerApp {
+public class UC04_CharArrayTwoPointer {
 
     /**
      * Application entry point for UC4.
@@ -64,3 +64,4 @@ public class UseCase4PalindromeCheckerApp {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
+

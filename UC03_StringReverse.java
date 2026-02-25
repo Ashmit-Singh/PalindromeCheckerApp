@@ -1,7 +1,7 @@
 /**
  * ==================================================
  *
- * MAIN CLASS - UseCase3PalindromeCheckerApp
+ * MAIN CLASS - UC03_StringReverse
  *
  * ==================================================
  *
@@ -24,7 +24,7 @@
  * @version 3.0
  *          ==================================================
  */
-public class UseCase3PalindromeCheckerApp {
+public class UC03_StringReverse {
 
     /**
      * Application entry point for UC3.
@@ -76,3 +76,4 @@ public class UseCase3PalindromeCheckerApp {
         System.out.println("==================================================");
     }
 }
+

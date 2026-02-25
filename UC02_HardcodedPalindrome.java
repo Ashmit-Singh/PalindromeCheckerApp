@@ -20,7 +20,7 @@
  * @version 2.0
  *          ==================================================
  */
-public class UseCase2PalindromeCheckerApp {
+public class UC02_HardcodedPalindrome {
 
     /**
      * Application entry point for UC2.
@@ -69,3 +69,4 @@ public class UseCase2PalindromeCheckerApp {
         System.out.println("==================================================");
     }
 }
+

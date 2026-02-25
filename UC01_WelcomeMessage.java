@@ -20,7 +20,7 @@
  * @version 1.0
  *          ==================================================
  */
-public class UseCase1PalindromeCheckerApp {
+public class UC01_WelcomeMessage {
 
     /**
      * Application entry point.
@@ -55,3 +55,4 @@ public class UseCase1PalindromeCheckerApp {
         System.out.println("==================================================");
     }
 }
+
