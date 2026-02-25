@@ -23,6 +23,7 @@ Each **use case** is implemented on its own Git branch, building incrementally o
 | `usecase10` | UC10: Case-Insensitive & Space-Ignored Palindrome | Normalizes input (regex + lowercase), then compares |
 | `usecase11` | UC11: Object-Oriented Palindrome Service | Encapsulates logic in PalindromeChecker class (SRP) |
 | `usecase12` | UC12: Strategy Pattern for Palindrome Algorithms | Interface + StackStrategy + DequeStrategy, runtime injection |
+| `usecase13` | UC13: Performance Comparison | Benchmarks 4 algorithms with System.nanoTime() |
 
 > More use case branches will be added as they are implemented.
 
