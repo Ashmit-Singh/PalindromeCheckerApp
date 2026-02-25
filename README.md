@@ -8,22 +8,22 @@ Each **use case** is implemented on its own Git branch, building incrementally o
 
 ## 📂 Branch Structure
 
-| Branch | Use Case | Description |
-|--------|----------|-------------|
-| `main` | — | This README and project overview |
-| `usecase1` | UC1: Application Entry & Welcome Message | Displays welcome message, app name, and version |
-| `usecase2` | UC2: Print a Hardcoded Palindrome Result | Checks a hardcoded string using character comparison loop |
-| `usecase3` | UC3: Palindrome Check Using String Reverse | Reverses string with loop + concatenation, compares with equals() |
-| `usecase4` | UC4: Character Array Based Palindrome Check | Converts to char[], uses two-pointer technique |
-| `usecase5` | UC5: Stack-Based Palindrome Checker | Uses Stack (LIFO) push/pop to reverse and compare |
-| `usecase6` | UC6: Queue + Stack Based Palindrome Check | Compares Queue (FIFO) dequeue vs Stack (LIFO) pop |
-| `usecase7` | UC7: Deque-Based Optimized Palindrome Checker | Uses Deque removeFirst/removeLast for bidirectional comparison |
-| `usecase8` | UC8: Linked List Based Palindrome Checker | Uses LinkedList removeFirst/removeLast for symmetric validation |
-| `usecase9` | UC9: Recursive Palindrome Checker | Recursive method comparing start/end indices inward |
-| `usecase10` | UC10: Case-Insensitive & Space-Ignored Palindrome | Normalizes input (regex + lowercase), then compares |
-| `usecase11` | UC11: Object-Oriented Palindrome Service | Encapsulates logic in PalindromeChecker class (SRP) |
-| `usecase12` | UC12: Strategy Pattern for Palindrome Algorithms | Interface + StackStrategy + DequeStrategy, runtime injection |
-| `usecase13` | UC13: Performance Comparison | Benchmarks 4 algorithms with System.nanoTime() |
+| Branch | Use Case | Implementation Details | File Name |
+| :--- | :--- | :--- | :--- |
+| `main` | — | This README and project overview | — |
+| `usecase1` | UC1: Welcome Message | Displays welcome message and version | `UC01_WelcomeMessage.java` |
+| `usecase2` | UC2: Hardcoded Check | Checks hardcoded string via char loop | `UC02_HardcodedPalindrome.java` |
+| `usecase3` | UC3: String Reverse | Reverses string with loop + concatenation | `UC03_StringReverse.java` |
+| `usecase4` | UC4: char[] Two-Pointer | Converts to char[], uses two-pointer approach | `UC04_CharArrayTwoPointer.java` |
+| `usecase5` | UC5: Stack (LIFO) | Uses Stack push/pop to reverse and compare | `UC05_StackBased.java` |
+| `usecase6` | UC6: Queue + Stack | Compares Queue (FIFO) vs Stack (LIFO) | `UC06_QueueStackComparison.java` |
+| `usecase7` | UC7: Deque (Optimized) | Uses Deque removeFirst/removeLast | `UC07_DequeOptimized.java` |
+| `usecase8` | UC8: Linked List | Uses LinkedList bidirectional removal | `UC08_LinkedListBased.java` |
+| `usecase9` | UC9: Recursion | Recursive method comparing start/end indices | `UC09_RecursivePalindrome.java` |
+| `usecase10` | UC10: Normalization | Normalizes input (regex + lowercase) | `UC10_NormalizedPalindrome.java` |
+| `usecase11` | UC11: OOP Service | Encapsulates logic in Service class (SRP) | `UC11_OopEncapsulation.java` |
+| `usecase12` | UC12: Strategy Pattern | Interchangeable algorithms via Interface | `UC12_StrategyPattern.java` |
+| `usecase13` | UC13: Performance | Benchmarks multiple algorithms | `UC13_PerformanceComparison.java` |
 
 > More use case branches will be added as they are implemented.
 
@@ -44,8 +44,8 @@ Each **use case** is implemented on its own Git branch, building incrementally o
 
 3. **Compile & Run:**
    ```bash
-   javac UseCase1PalindromeCheckerApp.java
-   java UseCase1PalindromeCheckerApp
+   javac UC01_WelcomeMessage.java
+   java UC01_WelcomeMessage
    ```
 
 ---
