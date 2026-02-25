@@ -16,6 +16,7 @@ Each **use case** is implemented on its own Git branch, building incrementally o
 | `usecase3` | UC3: Palindrome Check Using String Reverse | Reverses string with loop + concatenation, compares with equals() |
 | `usecase4` | UC4: Character Array Based Palindrome Check | Converts to char[], uses two-pointer technique |
 | `usecase5` | UC5: Stack-Based Palindrome Checker | Uses Stack (LIFO) push/pop to reverse and compare |
+| `usecase6` | UC6: Queue + Stack Based Palindrome Check | Compares Queue (FIFO) dequeue vs Stack (LIFO) pop |
 
 > More use case branches will be added as they are implemented.
 
