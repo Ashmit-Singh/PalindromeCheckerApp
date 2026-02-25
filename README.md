@@ -12,6 +12,7 @@ Each **use case** is implemented on its own Git branch, building incrementally o
 |--------|----------|-------------|
 | `main` | — | This README and project overview |
 | `usecase1` | UC1: Application Entry & Welcome Message | Displays welcome message, app name, and version |
+| `usecase2` | UC2: Print a Hardcoded Palindrome Result | Checks a hardcoded string using character comparison loop |
 
 > More use case branches will be added as they are implemented.
 
