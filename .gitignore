@@ -1,12 +1,1 @@
-# Compiled class files
-
-# IDE files
-.idea/
-*.iml
-.vscode/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
+# Compiled class files# IDE files.idea/*.iml.vscode/*.swp*.swo# OS files.DS_StoreThumbs.db
