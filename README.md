@@ -21,6 +21,7 @@ Each **use case** is implemented on its own Git branch, building incrementally o
 | `usecase8` | UC8: Linked List Based Palindrome Checker | Uses LinkedList removeFirst/removeLast for symmetric validation |
 | `usecase9` | UC9: Recursive Palindrome Checker | Recursive method comparing start/end indices inward |
 | `usecase10` | UC10: Case-Insensitive & Space-Ignored Palindrome | Normalizes input (regex + lowercase), then compares |
+| `usecase11` | UC11: Object-Oriented Palindrome Service | Encapsulates logic in PalindromeChecker class (SRP) |
 
 > More use case branches will be added as they are implemented.
 
