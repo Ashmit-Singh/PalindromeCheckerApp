@@ -18,6 +18,7 @@ Each **use case** is implemented on its own Git branch, building incrementally o
 | `usecase5` | UC5: Stack-Based Palindrome Checker | Uses Stack (LIFO) push/pop to reverse and compare |
 | `usecase6` | UC6: Queue + Stack Based Palindrome Check | Compares Queue (FIFO) dequeue vs Stack (LIFO) pop |
 | `usecase7` | UC7: Deque-Based Optimized Palindrome Checker | Uses Deque removeFirst/removeLast for bidirectional comparison |
+| `usecase8` | UC8: Linked List Based Palindrome Checker | Uses LinkedList removeFirst/removeLast for symmetric validation |
 
 > More use case branches will be added as they are implemented.
 
