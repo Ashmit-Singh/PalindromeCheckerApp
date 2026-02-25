@@ -17,6 +17,7 @@ Each **use case** is implemented on its own Git branch, building incrementally o
 | `usecase4` | UC4: Character Array Based Palindrome Check | Converts to char[], uses two-pointer technique |
 | `usecase5` | UC5: Stack-Based Palindrome Checker | Uses Stack (LIFO) push/pop to reverse and compare |
 | `usecase6` | UC6: Queue + Stack Based Palindrome Check | Compares Queue (FIFO) dequeue vs Stack (LIFO) pop |
+| `usecase7` | UC7: Deque-Based Optimized Palindrome Checker | Uses Deque removeFirst/removeLast for bidirectional comparison |
 
 > More use case branches will be added as they are implemented.
 
