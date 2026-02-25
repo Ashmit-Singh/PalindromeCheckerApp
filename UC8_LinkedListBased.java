@@ -2,7 +2,7 @@ import java.util.LinkedList;
 
 /**
  * ==================================================
- * MAIN CLASS - UseCase8PalindromeCheckerApp
+ * MAIN CLASS - UC8_LinkedListBased
  * ==================================================
  * Use Case 8: Linked List Based Palindrome Checker
  *
@@ -14,7 +14,7 @@ import java.util.LinkedList;
  * @version 8.0
  *          ==================================================
  */
-public class UseCase8PalindromeCheckerApp {
+public class UC8_LinkedListBased {
     public static void main(String[] args) {
         String input = "level";
         LinkedList<Character> list = new LinkedList<>();

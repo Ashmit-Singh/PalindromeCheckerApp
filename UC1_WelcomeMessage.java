@@ -1,6 +1,6 @@
 /**
  * ==================================================
- * MAIN CLASS - UseCase1PalindromeCheckerApp
+ * MAIN CLASS - UC1_WelcomeMessage
  * ==================================================
  * Use Case 1: Application Entry & Welcome Message
  *
@@ -11,7 +11,7 @@
  * @version 1.0
  *          ==================================================
  */
-public class UseCase1PalindromeCheckerApp {
+public class UC1_WelcomeMessage {
     public static void main(String[] args) {
         System.out.println("========================================");
         System.out.println("  Welcome to Palindrome Checker App");

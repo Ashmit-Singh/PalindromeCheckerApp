@@ -3,7 +3,7 @@ import java.util.Deque;
 
 /**
  * ==================================================
- * MAIN CLASS - UseCase7PalindromeCheckerApp
+ * MAIN CLASS - UC7_DequeOptimized
  * ==================================================
  * Use Case 7: Deque Based Optimized Palindrome Checker
  *
@@ -15,7 +15,7 @@ import java.util.Deque;
  * @version 7.0
  *          ==================================================
  */
-public class UseCase7PalindromeCheckerApp {
+public class UC7_DequeOptimized {
     public static void main(String[] args) {
         String input = "refer";
         Deque<Character> deque = new ArrayDeque<>();

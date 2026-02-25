@@ -1,32 +1,30 @@
-import java.util.Stack;
-
 /**
  * ==================================================
- * MAIN CLASS - UseCase5PalindromeCheckerApp
+ * MAIN CLASS - UC4_CharArrayTwoPointer
  * ==================================================
- * Use Case 5: Stack-Based Palindrome Checker
+ * Use Case 4: Character Array Based Palindrome Check
  *
  * Description:
- * Pushes chars onto a Stack, pops and compares
- * with original order (LIFO reversal).
+ * Converts to char[], uses two-pointer technique.
  *
  * @author Developer
- * @version 5.0
+ * @version 4.0
  *          ==================================================
  */
-public class UseCase5PalindromeCheckerApp {
+public class UC4_CharArrayTwoPointer {
     public static void main(String[] args) {
-        String input = "noon";
-        Stack<Character> stack = new Stack<>();
-        for (char c : input.toCharArray()) {
-            stack.push(c);
-        }
+        String input = "radar";
+        char[] chars = input.toCharArray();
         boolean isPalindrome = true;
-        for (char c : input.toCharArray()) {
-            if (c != stack.pop()) {
+        int start = 0;
+        int end = chars.length - 1;
+        while (start < end) {
+            if (chars[start] != chars[end]) {
                 isPalindrome = false;
                 break;
             }
+            start++;
+            end--;
         }
         System.out.println("Input : " + input);
         System.out.println("Is Palindrome? : " + isPalindrome);

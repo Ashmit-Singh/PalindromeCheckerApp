@@ -1,6 +1,6 @@
 /**
  * ==================================================
- * MAIN CLASS - UseCase11PalindromeCheckerApp
+ * MAIN CLASS - UC11_OopEncapsulation
  * ==================================================
  * Use Case 11: Object-Oriented Palindrome Service
  *
@@ -12,17 +12,17 @@
  * @version 11.0
  *          ==================================================
  */
-public class UseCase11PalindromeCheckerApp {
+public class UC11_OopEncapsulation {
     public static void main(String[] args) {
         String input = "racecar";
-        PalindromeChecker checker = new PalindromeChecker();
-        boolean result = checker.checkPalindrome(input);
+        PalindromeService service = new PalindromeService();
+        boolean result = service.checkPalindrome(input);
         System.out.println("Input : " + input);
         System.out.println("Is Palindrome? : " + result);
     }
 }
 
-class PalindromeChecker {
+class PalindromeService {
     public boolean checkPalindrome(String input) {
         int start = 0;
         int end = input.length() - 1;

@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * ==================================================
- * MAIN CLASS - UseCase13PalindromeCheckerApp
+ * MAIN CLASS - UC13_PerformanceComparison
  * ==================================================
  * Use Case 13: Performance Comparison
  *
@@ -16,7 +16,7 @@ import java.util.Stack;
  * @version 13.0
  *          ==================================================
  */
-public class UseCase13PalindromeCheckerApp {
+public class UC13_PerformanceComparison {
     public static void main(String[] args) {
         String input = "abacaba";
         System.out.println("Input : " + input);

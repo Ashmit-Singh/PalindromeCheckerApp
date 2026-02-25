@@ -1,6 +1,6 @@
 /**
  * ==================================================
- * MAIN CLASS - UseCase9PalindromeCheckerApp
+ * MAIN CLASS - UC9_RecursivePalindrome
  * ==================================================
  * Use Case 9: Recursive Palindrome Checker
  *
@@ -11,7 +11,7 @@
  * @version 9.0
  *          ==================================================
  */
-public class UseCase9PalindromeCheckerApp {
+public class UC9_RecursivePalindrome {
     public static void main(String[] args) {
         String input = "madam";
         boolean result = check(input, 0, input.length() - 1);

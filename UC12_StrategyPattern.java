@@ -1,30 +1,30 @@
 /**
  * ==================================================
- * MAIN CLASS - UseCase12PalindromeCheckerApp
+ * MAIN CLASS - UC12_StrategyPattern
  * ==================================================
  * Use Case 12: Strategy Pattern for Palindrome Algorithms
  *
  * Description:
  * Defines PalindromeStrategy interface with
- * StackStrategy and DequeStrategy implementations.
+ * StackPalindromeStrategy and DequePalindromeStrategy.
  * Strategy is injected at runtime (polymorphism).
  *
  * @author Developer
  * @version 12.0
  *          ==================================================
  */
-public class UseCase12PalindromeCheckerApp {
+public class UC12_StrategyPattern {
     public static void main(String[] args) {
         String input = "deified";
 
-        PalindromeStrategy strategy1 = new StackStrategy();
-        System.out.println("Strategy : StackStrategy");
+        PalindromeStrategy strategy1 = new StackPalindromeStrategy();
+        System.out.println("Strategy : StackPalindromeStrategy");
         System.out.println("Input : " + input);
         System.out.println("Is Palindrome? : " + strategy1.check(input));
         System.out.println();
 
-        PalindromeStrategy strategy2 = new DequeStrategy();
-        System.out.println("Strategy : DequeStrategy");
+        PalindromeStrategy strategy2 = new DequePalindromeStrategy();
+        System.out.println("Strategy : DequePalindromeStrategy");
         System.out.println("Input : " + input);
         System.out.println("Is Palindrome? : " + strategy2.check(input));
     }
@@ -34,7 +34,7 @@ interface PalindromeStrategy {
     boolean check(String input);
 }
 
-class StackStrategy implements PalindromeStrategy {
+class StackPalindromeStrategy implements PalindromeStrategy {
     public boolean check(String input) {
         java.util.Stack<Character> stack = new java.util.Stack<>();
         for (char c : input.toCharArray())
@@ -47,7 +47,7 @@ class StackStrategy implements PalindromeStrategy {
     }
 }
 
-class DequeStrategy implements PalindromeStrategy {
+class DequePalindromeStrategy implements PalindromeStrategy {
     public boolean check(String input) {
         java.util.Deque<Character> deque = new java.util.ArrayDeque<>();
         for (char c : input.toCharArray())

@@ -1,33 +1,29 @@
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 /**
  * ==================================================
- * MAIN CLASS - UseCase6PalindromeCheckerApp
+ * MAIN CLASS - UC5_StackBased
  * ==================================================
- * Use Case 6: Queue + Stack Fairness Check
+ * Use Case 5: Stack-Based Palindrome Checker
  *
  * Description:
- * Demonstrates FIFO vs LIFO using Queue and Stack.
- * Compares dequeue (front) with pop (top/reverse).
+ * Pushes chars onto a Stack, pops and compares
+ * with original order (LIFO reversal).
  *
  * @author Developer
- * @version 6.0
+ * @version 5.0
  *          ==================================================
  */
-public class UseCase6PalindromeCheckerApp {
+public class UC5_StackBased {
     public static void main(String[] args) {
-        String input = "civic";
-        Queue<Character> queue = new LinkedList<>();
+        String input = "noon";
         Stack<Character> stack = new Stack<>();
         for (char c : input.toCharArray()) {
-            queue.add(c);
             stack.push(c);
         }
         boolean isPalindrome = true;
-        while (!queue.isEmpty()) {
-            if (!queue.poll().equals(stack.pop())) {
+        for (char c : input.toCharArray()) {
+            if (c != stack.pop()) {
                 isPalindrome = false;
                 break;
             }

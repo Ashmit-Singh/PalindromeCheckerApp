@@ -1,16 +1,18 @@
-# 🔁 PalindromeCheckerApp
+# PalindromeCheckerApp
 
-A **console-based Java application** that validates whether a given string is a palindrome under different conditions, while strengthening core programming fundamentals and data structure concepts.
+A console-based Java application that validates whether a given string is a palindrome under different conditions, while strengthening core programming fundamentals and data structure concepts.
 
-Each **use case** is implemented on its own Git branch, starting from the base README.
+## How to Compile & Run
 
----
+```bash
+javac UC1_WelcomeMessage.java
+java UC1_WelcomeMessage
+```
 
-## 📂 Branch Structure
+## Use Case Branches
 
-| Branch | Use Case | File Name |
-| :--- | :--- | :--- |
-| `main` | — | (All files listed below) |
+| Branch | Use Case | File |
+|--------|----------|------|
 | `usecase1` | UC1: Welcome Message | `UC1_WelcomeMessage.java` |
 | `usecase2` | UC2: Hardcoded Check | `UC2_HardcodedCheck.java` |
 | `usecase3` | UC3: String Reverse | `UC3_StringReverse.java` |
@@ -25,20 +27,4 @@ Each **use case** is implemented on its own Git branch, starting from the base R
 | `usecase12` | UC12: Strategy Pattern | `UC12_StrategyPattern.java` |
 | `usecase13` | UC13: Performance Comparison | `UC13_PerformanceComparison.java` |
 
----
-
-## 🚀 How to Use
-
-1. **Switch to a branch:**
-   ```bash
-   git checkout usecase1
-   ```
-
-2. **Compile and Run:**
-   ```bash
-   javac UC1_WelcomeMessage.java
-   java UC1_WelcomeMessage
-   ```
-
----
-*Created with care by Antigravity* 🌌
+> **main** branch contains all 13 use case files. Each `usecaseX` branch contains only its own file.

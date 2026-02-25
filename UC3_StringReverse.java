@@ -1,6 +1,6 @@
 /**
  * ==================================================
- * MAIN CLASS - UseCase3PalindromeCheckerApp
+ * MAIN CLASS - UC3_StringReverse
  * ==================================================
  * Use Case 3: Palindrome Check Using String Reverse
  *
@@ -12,7 +12,7 @@
  * @version 3.0
  *          ==================================================
  */
-public class UseCase3PalindromeCheckerApp {
+public class UC3_StringReverse {
     public static void main(String[] args) {
         String input = "racecar";
         String reversed = "";

@@ -1,6 +1,6 @@
 /**
  * ==================================================
- * MAIN CLASS - UseCase10PalindromeCheckerApp
+ * MAIN CLASS - UC10_Normalization
  * ==================================================
  * Use Case 10: Normalized Palindrome Validation
  *
@@ -12,7 +12,7 @@
  * @version 10.0
  *          ==================================================
  */
-public class UseCase10PalindromeCheckerApp {
+public class UC10_Normalization {
     public static void main(String[] args) {
         String input = "A man a plan a canal Panama";
         String normalized = input.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
