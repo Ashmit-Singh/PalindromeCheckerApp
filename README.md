@@ -27,4 +27,4 @@ java UC1_WelcomeMessage
 | `usecase12` | UC12: Strategy Pattern | `UC12_StrategyPattern.java` |
 | `usecase13` | UC13: Performance Comparison | `UC13_PerformanceComparison.java` |
 
-> **main** branch contains all 13 use case files. Each `usecaseX` branch contains only its own file.
+
