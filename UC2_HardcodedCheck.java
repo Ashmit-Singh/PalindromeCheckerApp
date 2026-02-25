@@ -20,7 +20,7 @@
  * @version 2.0
  *          ==================================================
  */
-public class UC02_HardcodedPalindrome {
+public class UC2_HardcodedCheck {
 
     /**
      * Application entry point for UC2.
@@ -69,4 +69,5 @@ public class UC02_HardcodedPalindrome {
         System.out.println("==================================================");
     }
 }
+
 

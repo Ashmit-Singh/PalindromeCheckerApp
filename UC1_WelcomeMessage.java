@@ -20,7 +20,7 @@
  * @version 1.0
  *          ==================================================
  */
-public class UC01_WelcomeMessage {
+public class UC1_WelcomeMessage {
 
     /**
      * Application entry point.
@@ -55,4 +55,5 @@ public class UC01_WelcomeMessage {
         System.out.println("==================================================");
     }
 }
+
 

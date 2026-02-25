@@ -1,7 +1,7 @@
 /**
  * ==================================================
  *
- * MAIN CLASS - UC03_StringReverse
+ * MAIN CLASS - UC3_StringReverse
  *
  * ==================================================
  *
@@ -24,7 +24,7 @@
  * @version 3.0
  *          ==================================================
  */
-public class UC03_StringReverse {
+public class UC3_StringReverse {
 
     /**
      * Application entry point for UC3.
@@ -76,4 +76,5 @@ public class UC03_StringReverse {
         System.out.println("==================================================");
     }
 }
+
 

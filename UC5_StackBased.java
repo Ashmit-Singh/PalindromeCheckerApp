@@ -3,7 +3,7 @@ import java.util.Stack;
 /**
  * ==================================================
  *
- * MAIN CLASS - UC05_StackBased
+ * MAIN CLASS - UC5_StackBased
  *
  * ==================================================
  *
@@ -27,7 +27,7 @@ import java.util.Stack;
  * @version 5.0
  *          ==================================================
  */
-public class UC05_StackBased {
+public class UC5_StackBased {
 
     /**
      * Application entry point for UC5.
@@ -64,4 +64,5 @@ public class UC05_StackBased {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
+
 

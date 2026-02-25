@@ -1,7 +1,7 @@
 /**
  * ==================================================
  *
- * MAIN CLASS - UC04_CharArrayTwoPointer
+ * MAIN CLASS - UC4_CharArrayTwoPointer
  *
  * ==================================================
  *
@@ -25,7 +25,7 @@
  * @version 4.0
  *          ==================================================
  */
-public class UC04_CharArrayTwoPointer {
+public class UC4_CharArrayTwoPointer {
 
     /**
      * Application entry point for UC4.
@@ -64,4 +64,5 @@ public class UC04_CharArrayTwoPointer {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
+
 

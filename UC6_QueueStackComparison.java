@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * ==================================================
  *
- * MAIN CLASS - UC06_QueueStackComparison
+ * MAIN CLASS - UC6_QueueStackComparison
  *
  * ==================================================
  *
@@ -32,7 +32,7 @@ import java.util.Stack;
  * @version 6.0
  *          ==================================================
  */
-public class UC06_QueueStackComparison {
+public class UC6_QueueStackComparison {
 
     /**
      * Application entry point for UC6.
@@ -74,4 +74,5 @@ public class UC06_QueueStackComparison {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
+
 
