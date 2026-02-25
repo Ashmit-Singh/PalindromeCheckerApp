@@ -20,6 +20,7 @@ Each **use case** is implemented on its own Git branch, building incrementally o
 | `usecase7` | UC7: Deque-Based Optimized Palindrome Checker | Uses Deque removeFirst/removeLast for bidirectional comparison |
 | `usecase8` | UC8: Linked List Based Palindrome Checker | Uses LinkedList removeFirst/removeLast for symmetric validation |
 | `usecase9` | UC9: Recursive Palindrome Checker | Recursive method comparing start/end indices inward |
+| `usecase10` | UC10: Case-Insensitive & Space-Ignored Palindrome | Normalizes input (regex + lowercase), then compares |
 
 > More use case branches will be added as they are implemented.
 
