@@ -2,12 +2,6 @@
 
 A console-based Java application that validates whether a given string is a palindrome under different conditions, while strengthening core programming fundamentals and data structure concepts.
 
-## How to Compile & Run
-
-```bash
-javac UC1_WelcomeMessage.java
-java UC1_WelcomeMessage
-```
 
 ## Use Case Branches
 
