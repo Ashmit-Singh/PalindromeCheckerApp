@@ -1,17 +1,4 @@
-/**
- * ==================================================
- * MAIN CLASS - UC11_OopEncapsulation
- * ==================================================
- * Use Case 11: Object-Oriented Palindrome Service
- *
- * Description:
- * Encapsulates palindrome logic in a PalindromeChecker
- * class with checkPalindrome() method (SRP).
- *
- * @author Developer
- * @version 11.0
- *          ==================================================
- */
+
 public class UC11_OopEncapsulation {
     public static void main(String[] args) {
         String input = "racecar";
