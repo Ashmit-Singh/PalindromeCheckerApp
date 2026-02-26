@@ -1,18 +1,4 @@
-/**
- * ==================================================
- * MAIN CLASS - UC12_StrategyPattern
- * ==================================================
- * Use Case 12: Strategy Pattern for Palindrome Algorithms
- *
- * Description:
- * Defines PalindromeStrategy interface with
- * StackPalindromeStrategy and DequePalindromeStrategy.
- * Strategy is injected at runtime (polymorphism).
- *
- * @author Developer
- * @version 12.0
- *          ==================================================
- */
+
 public class UC12_StrategyPattern {
     public static void main(String[] args) {
         String input = "deified";
