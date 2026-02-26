@@ -1,16 +1,4 @@
-/**
- * ==================================================
- * MAIN CLASS - UC9_RecursivePalindrome
- * ==================================================
- * Use Case 9: Recursive Palindrome Checker
- *
- * Description:
- * Recursive method comparing start/end indices inward.
- *
- * @author Developer
- * @version 9.0
- *          ==================================================
- */
+
 public class UC9_RecursivePalindrome {
     public static void main(String[] args) {
         String input = "madam";
