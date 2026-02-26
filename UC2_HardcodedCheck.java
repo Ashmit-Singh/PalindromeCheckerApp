@@ -1,16 +1,3 @@
-/**
- * ==================================================
- * MAIN CLASS - UC2_HardcodedCheck
- * ==================================================
- * Use Case 2: Print a Hardcoded Palindrome Result
- *
- * Description:
- * Checks a hardcoded string using character comparison loop.
- *
- * @author Developer
- * @version 2.0
- *          ==================================================
- */
 public class UC2_HardcodedCheck {
     public static void main(String[] args) {
         String input = "madam";
