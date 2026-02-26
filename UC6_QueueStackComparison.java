@@ -1,21 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
-
-/**
- * ==================================================
- * MAIN CLASS - UC6_QueueStackComparison
- * ==================================================
- * Use Case 6: Queue + Stack Fairness Check
- *
- * Description:
- * Demonstrates FIFO vs LIFO using Queue and Stack.
- * Compares dequeue (front) with pop (top/reverse).
- *
- * @author Developer
- * @version 6.0
- *          ==================================================
- */
 public class UC6_QueueStackComparison {
     public static void main(String[] args) {
         String input = "civic";
