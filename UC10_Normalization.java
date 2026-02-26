@@ -1,17 +1,4 @@
-/**
- * ==================================================
- * MAIN CLASS - UC10_Normalization
- * ==================================================
- * Use Case 10: Normalized Palindrome Validation
- *
- * Description:
- * Normalizes input (remove non-alphanumeric, lowercase)
- * then compares from both ends.
- *
- * @author Developer
- * @version 10.0
- *          ==================================================
- */
+
 public class UC10_Normalization {
     public static void main(String[] args) {
         String input = "A man a plan a canal Panama";
