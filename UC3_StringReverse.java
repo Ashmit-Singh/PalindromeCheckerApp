@@ -1,17 +1,3 @@
-/**
- * ==================================================
- * MAIN CLASS - UC3_StringReverse
- * ==================================================
- * Use Case 3: Palindrome Check Using String Reverse
- *
- * Description:
- * Reverses string with loop + concatenation,
- * compares with equals().
- *
- * @author Developer
- * @version 3.0
- *          ==================================================
- */
 public class UC3_StringReverse {
     public static void main(String[] args) {
         String input = "racecar";
