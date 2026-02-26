@@ -2,20 +2,6 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Stack;
 
-/**
- * ==================================================
- * MAIN CLASS - UC13_PerformanceComparison
- * ==================================================
- * Use Case 13: Performance Comparison
- *
- * Description:
- * Benchmarks 4 algorithms (Two-Pointer, Stack, Deque,
- * Recursive) using System.nanoTime().
- *
- * @author Developer
- * @version 13.0
- *          ==================================================
- */
 public class UC13_PerformanceComparison {
     public static void main(String[] args) {
         String input = "abacaba";
