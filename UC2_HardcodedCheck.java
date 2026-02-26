@@ -1,4 +1,3 @@
-
 public class UC2_HardcodedCheck {
     public static void main(String[] args) {
         String input = "madam";
