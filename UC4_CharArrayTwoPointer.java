@@ -1,16 +1,3 @@
-/**
- * ==================================================
- * MAIN CLASS - UC4_CharArrayTwoPointer
- * ==================================================
- * Use Case 4: Character Array Based Palindrome Check
- *
- * Description:
- * Converts to char[], uses two-pointer technique.
- *
- * @author Developer
- * @version 4.0
- *          ==================================================
- */
 public class UC4_CharArrayTwoPointer {
     public static void main(String[] args) {
         String input = "radar";
