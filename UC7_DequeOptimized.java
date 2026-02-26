@@ -1,20 +1,6 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-/**
- * ==================================================
- * MAIN CLASS - UC7_DequeOptimized
- * ==================================================
- * Use Case 7: Deque Based Optimized Palindrome Checker
- *
- * Description:
- * Uses Deque removeFirst/removeLast for efficient
- * bidirectional comparison.
- *
- * @author Developer
- * @version 7.0
- *          ==================================================
- */
 public class UC7_DequeOptimized {
     public static void main(String[] args) {
         String input = "refer";
