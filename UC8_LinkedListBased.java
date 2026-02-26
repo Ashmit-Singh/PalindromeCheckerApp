@@ -1,19 +1,5 @@
 import java.util.LinkedList;
 
-/**
- * ==================================================
- * MAIN CLASS - UC8_LinkedListBased
- * ==================================================
- * Use Case 8: Linked List Based Palindrome Checker
- *
- * Description:
- * Uses LinkedList removeFirst/removeLast for
- * symmetric validation.
- *
- * @author Developer
- * @version 8.0
- *          ==================================================
- */
 public class UC8_LinkedListBased {
     public static void main(String[] args) {
         String input = "level";
